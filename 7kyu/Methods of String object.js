@@ -1,0 +1,1 @@
+const alienLanguage = str =>str.split(` `).map(word =>word.substr(0,word.length-1).toUpperCase() + word.substr(-1).toLowerCase()).join(` `)
