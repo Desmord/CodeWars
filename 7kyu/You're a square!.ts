@@ -1,0 +1,1 @@
+export default (n:number): boolean => n < 0 ? false : Number.isInteger(Math.sqrt(n)) ? true :false
