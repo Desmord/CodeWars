@@ -4,3 +4,4 @@ export class Kata {
         return `${Math.max(...numbersN)} ${Math.min(...numbersN)}`
     }
 }
+
